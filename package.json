@@ -1,0 +1,24 @@
+{
+  "name": "darksky-influxdb",
+  "version": "1.0.0",
+  "description": "Logs weather information from darksky.io to InfluxDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ErwinSteffens/darksky-influxdb.git"
+  },
+  "keywords": [
+    "darksky",
+    "weather",
+    "influxdb"
+  ],
+  "author": "Erwin Steffens <erwinsteffens@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ErwinSteffens/darksky-influxdb/issues"
+  },
+  "homepage": "https://github.com/ErwinSteffens/darksky-influxdb#readme"
+}
