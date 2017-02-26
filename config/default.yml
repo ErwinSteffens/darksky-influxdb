@@ -1,0 +1,13 @@
+general:
+  debug: false
+  cron: ''
+darksky:
+  key: 
+  units: auto
+  longitude: 
+  latitude: 
+influxdb:
+  host: influxdb
+  database: home
+  username: 
+  password: 

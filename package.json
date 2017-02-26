@@ -4,6 +4,7 @@
   "description": "Logs weather information from darksky.io to InfluxDB",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/ErwinSteffens/darksky-influxdb/issues"
   },
-  "homepage": "https://github.com/ErwinSteffens/darksky-influxdb#readme"
+  "homepage": "https://github.com/ErwinSteffens/darksky-influxdb#readme",
+  "dependencies": {
+    "config": "^1.25.1",
+    "darksky-node": "0.0.2",
+    "influx": "^5.0.4",
+    "js-yaml": "^3.8.1",
+    "node-cron": "^1.1.3"
+  }
 }
