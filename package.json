@@ -1,7 +1,7 @@
 {
   "name": "darksky-influxdb",
-  "version": "1.0.0",
-  "description": "Logs weather information from darksky.io to InfluxDB",
+  "version": "0.0.1",
+  "description": "Logs weather information from DarkSky.net to InfluxDB",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

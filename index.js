@@ -7,6 +7,10 @@ const generalConfig = config.get('general'),
     influxConfig = config.get('influxdb'),
     darkskyConfig = config.get('darksky')
 
+if (!darkskyConfig.key) {
+    throw new Error('DarkSky key should be provided')
+}
+
 const influx = new Influx.InfluxDB({
     host: influxConfig.host,
     database: influxConfig.database,
