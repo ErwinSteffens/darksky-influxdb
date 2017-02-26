@@ -17,7 +17,7 @@ docker run -rm -it \
     -e DARKSKY_KEY=<your-darksky-key> \
     -e INFLUXDB_HOST=influxdb.myhost.io \
     -e INFLUXDB_DATABASE=weather \
-    erwinsteffens/darksky-influxdb:lastest
+    erwinsteffens/darksky-influxdb:latest
 ```
 
 Run it every 10 seconds:
@@ -28,7 +28,7 @@ docker run -rm -it \
     -e CRON="*\10 * * * * *" \
     -e INFLUXDB_HOST=influxdb.myhost.io \
     -e INFLUXDB_DATABASE=weather \
-    erwinsteffens/darksky-influxdb:lastest
+    erwinsteffens/darksky-influxdb:latest
 ```
 
 Query the weather data from your InfluxDB instance. For example show average temperature for the last 7 days:
