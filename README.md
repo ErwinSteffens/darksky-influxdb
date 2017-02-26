@@ -10,6 +10,8 @@ You get 1000 requests per day for free. Enough to use for your personal weather 
 
 # Usage
 
+An example of using this in docker-compose can be found [here](https://github.com/ErwinSteffens/server/blob/master/docker-compose.yml).
+
 Run it once:
 
 ```
