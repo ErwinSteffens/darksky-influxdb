@@ -8,6 +8,7 @@ darksky:
   latitude: DARKSKY_LATITUDE
 influxdb:
   host: INFLUXDB_HOST
+  port: INFLUXDB_PORT
   database: INFLUXDB_DATABASE
   username: INFLUXDB_USERNAME
   password: INFLUXDB_PASSWORD
