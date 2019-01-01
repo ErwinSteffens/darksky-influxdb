@@ -18,6 +18,7 @@ Run it once:
 docker run -rm -it \
     -e DARKSKY_KEY=<your-darksky-key> \
     -e INFLUXDB_HOST=influxdb.myhost.io \
+    -e INFLUXDB_PORT=8086 \
     -e INFLUXDB_DATABASE=weather \
     erwinsteffens/darksky-influxdb:latest
 ```
@@ -29,6 +30,7 @@ docker run -rm -it \
     -e DARKSKY_KEY=<your-darksky-key> \
     -e CRON="*\10 * * * * *" \
     -e INFLUXDB_HOST=influxdb.myhost.io \
+    -e INFLUXDB_PORT=8086 \
     -e INFLUXDB_DATABASE=weather \
     erwinsteffens/darksky-influxdb:latest
 ```
