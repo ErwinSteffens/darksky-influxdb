@@ -73,6 +73,11 @@ Your geo coordinates to get the weater data for. You can find them here: [http:/
 
 Hostname of IP of your InfluxDB server.
 
+### INFLUXDB_PORT
+
+Port of your InfluxDB server.
+
+
 ### INFLUXDB_DATABASE
 
 Database to write to for InfluxDB.
