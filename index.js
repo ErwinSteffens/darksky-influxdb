@@ -30,7 +30,11 @@ const influx = new Influx.InfluxDB({
                 wind_bearing: Influx.FieldType.FLOAT,
                 cloud_cover: Influx.FieldType.FLOAT,
                 pressure: Influx.FieldType.FLOAT,
-                ozone: Influx.FieldType.FLOAT
+                ozone: Influx.FieldType.FLOAT,
+                precip_intensity: Influx.FieldType.FLOAT,
+                precip_probability: Influx.FieldType.FLOAT,
+                nearest_storm_distance: Influx.FieldType.FLOAT,
+                nearest_storm_bearing: Influx.FieldType.FLOAT
             }
         }
     ]
@@ -67,6 +71,10 @@ var getForecast = function () {
                         cloud_cover: current.cloudCover,
                         pressure: current.pressure,
                         ozone: current.ozone,
+                        precip_intensity: current.precipIntensity,
+                        precip_probability: current.precipProbability,
+                        nearest_storm_distance: current.nearestStormDistance,
+                        nearest_storm_bearing: current.nearestStormBearing,
                     },
                     tags: {
                         source: 'darksky'
