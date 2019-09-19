@@ -39,7 +39,7 @@ const influx = new Influx.InfluxDB({
                 nearest_storm_bearing: Influx.FieldType.FLOAT,
                 sunrise_time: Influx.FieldType.INTEGER,
                 sunset_time: Influx.FieldType.INTEGER,
-                sun: Influx.FieldType.BOOLEAN
+                sun_status: Influx.FieldType.INTEGER
             }
         }
     ]
@@ -101,7 +101,7 @@ var getForecast = function () {
 
                         sunrise_time: daily.sunriseTime,
                         sunset_time: daily.sunsetTime,
-                        sun: sunStatus,
+                        sun_status: sunStatus,
                     },
                     tags: {
                         source: 'darksky'
